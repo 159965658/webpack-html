@@ -1,0 +1,23 @@
+body {
+  background: red;
+}
+
+.index-layout .header-nav-navbar > li {
+  margin: 0px 20px;
+}
+.index-layout .banner {
+  height: 680px;
+  background: url(../img/baner_1.png) no-repeat;
+  background-size: cover;
+}
+@media (min-width: 768px) {
+  body {
+    background-color: orange;
+  }
+  .index-layout {
+    display: -webkit-flex;
+    display: -moz-box;
+    display: flex;
+  }
+}
+
